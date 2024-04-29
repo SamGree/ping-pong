@@ -18,10 +18,10 @@
     
     }
 header {
-    background-color: rgb(255, 248, 248);
+    background-color: rgb(247, 250, 208);
 }
 main {
-    background-color: rgb(159, 203, 191);
+    background-color: rgb(232, 239, 237);
     /*make main element take big place and move footer to the bottom*/
     flex: 1 0 auto;
 }
