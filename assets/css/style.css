@@ -10,8 +10,15 @@
         flex-direction: column;
         color: rgb(0, 0, 0);
     }
+    #logo {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(83, 155, 83);
+        text-align: center;
+        margin: 15px 0 5px 0;
+    
+    }
 header {
-    background-color: rgb(151, 114, 114);
+    background-color: rgb(255, 248, 248);
 }
 main {
     background-color: rgb(159, 203, 191);
