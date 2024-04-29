@@ -2,12 +2,20 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
-}
+    box-sizing: border-box; }
+    /*style for body in general*/
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        color: rgb(0, 0, 0);
+    }
 header {
     background-color: rgb(151, 114, 114);
 }
 main {
     background-color: rgb(159, 203, 191);
+    /*make main element take big place and move footer to the bottom*/
+    flex: 1 0 auto;
 }
 footer {background-color: rgb(29, 185, 172);}
