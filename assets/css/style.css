@@ -11,14 +11,17 @@
         color: rgb(0, 0, 0);
     }
     #logo {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: rgb(83, 155, 83);
+        font-family: arial;
+        text-transform: uppercase;
+        color: rgb(226, 209, 209);
         text-align: center;
         margin: 15px 0 5px 0;
+        
+        
     
     }
 header {
-    background-color: rgb(247, 250, 208);
+    background: url("../images/pingpong2.webp.jpg") no-repeat center/cover;
 }
 main {
     background-color: rgb(232, 239, 237);
