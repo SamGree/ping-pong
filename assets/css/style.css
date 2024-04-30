@@ -30,12 +30,22 @@ header {
 main {
     background: rgb(187, 150, 150);
     /*make main element take big place and move footer to the bottom*/
-    flex: 1 0 auto;
-}
+    flex: 1 0 auto;}
+
+/*style for navbar*/
 .one {
+    /*move navbar to right*/
     text-align: right;
+    font-family: Arial, Verdana; }
+    /*style h1 in main elemet*/
+    h1 {text-align: center;
+        margin-top: 10px;
+       
+            }
     
-}
+            
+    
+
 /*footer*/
 #webmedia {
     text-align: center;
