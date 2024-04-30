@@ -64,3 +64,11 @@ main {
 #contact {
     text-align: center;
 }
+/*photos html page*/
+.pictures {
+    margin-top: 10px;
+}
+.pictures img {   
+     width: 33%;
+     
+}
