@@ -2,42 +2,50 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; }
-    /*style for body in general*/
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        color: rgb(0, 0, 0);
-    }
-    #logo {
-        font-family: arial;
-        text-transform: uppercase;
-        color: rgb(252, 253, 255);
-        text-align: center;
-        margin: 15px 0 5px 0;
-        
-        
-    
-    }
+    box-sizing: border-box;
+}
+
+/*style for body in general*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+#logo {
+    font-family: arial; 
+    font-size: 60px;
+    text-transform: uppercase;
+    color: rgb(252, 253, 255);
+    text-align: center;
+    margin-top: 60px;
+}
+
 header {
     background: url("../images/139558755.webp") no-repeat center;
+
 }
+
 main {
-    background-color: rgb(232, 239, 237);
+    background: rgb(187, 150, 150);
     /*make main element take big place and move footer to the bottom*/
     flex: 1 0 auto;
 }
+
 /*footer*/
 #webmedia {
     text-align: center;
     display: flex;
-    justify-content: space-evenly; 
-    padding: 30px; list-style-type: none;
+    justify-content: space-evenly;
+    padding: 30px;
+    list-style-type: none;
 }
+
 #webmedia i {
     font-size: 200%;
 }
+
 #contact {
     text-align: center;
 }
