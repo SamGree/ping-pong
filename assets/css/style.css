@@ -2,73 +2,18 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/*style for body in general*/
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: rgb(0, 0, 0);
-}
-
-#logo {
-    font-family: arial; 
-    font-size: 60px;
-    text-transform: uppercase;
-    color: rgb(252, 253, 255);
-    text-align: center;
-    margin-top: 60px; 
-}
-
+    box-sizing: border-box;}
+    /*header*/
 header {
-    background: url("../images/139558755.webp") no-repeat center center/cover;
-    width: 100%; 
-    height: 250px;
-
+    background-color: lightcoral;
 }
-
+/*main content*/
 main {
-    background: rgb(187, 150, 150);
-    /*make main element take big place and move footer to the bottom*/
-    flex: 1 0 auto;}
+    background-color: lightblue;
 
-/*style for navbar*/
-.one {
-    /*move navbar to right*/
-    text-align: right;
-    font-family: Arial, Verdana; }
-    /*style h1 in main elemet*/
-    h1 {text-align: center;
-        margin-top: 10px;
-       
-            }
-    
-            
-    
-
+}
 /*footer*/
-#webmedia {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px;
-    list-style-type: none;
-}
+footer {
+    background-color: orange;
 
-#webmedia i {
-    font-size: 200%;
-}
-
-#contact {
-    text-align: center;
-}
-/*photos html page*/
-.pictures {
-    margin-top: 10px;
-}
-.pictures img {   
-     width: 33%;
-     
 }
