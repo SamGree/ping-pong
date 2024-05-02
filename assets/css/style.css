@@ -67,14 +67,15 @@ nav {
 
 /*main content*/
 main {
-    background-color: lightblue;
-    /*push the footer to the bottom*/
+     /*push the footer to the bottom*/
     flex: 1 0 auto;
     margin-top: 47px;
-    
-
-
-}
+    }
+    #hero {
+        height: 600px;
+        width: 100%;
+        background: url(../images/backgroud.jpg) no-repeat center center/cover;
+    }
 /*footer*/
 #social-networks {
     text-align: center;
@@ -120,10 +121,17 @@ main {
         margin-top: 75px;
     }
     
+    
 }
 /*large devices (laptops and desktops 992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+    h2 {color: #ffffff;
+      margin-top: 25px;
+}
+}
+@media screen and (min-width: 400px){
+   
 }
