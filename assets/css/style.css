@@ -70,6 +70,7 @@ main {
     background-color: lightblue;
     /*push the footer to the bottom*/
     flex: 1 0 auto;
+    margin-top: 47px;
 
 
 }
@@ -77,4 +78,25 @@ main {
 footer {
     background-color: orange;
 
+}
+/*media quary: tablets and larger (768px and up) */
+@media screen and (min-width: 768px){
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding: 1rem
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    
 }
